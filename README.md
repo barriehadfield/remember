@@ -1,4 +1,4 @@
-# db stuff to store
+# stuff to remember
 
 ## mount drive
 
