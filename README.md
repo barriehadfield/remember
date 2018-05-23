@@ -38,6 +38,9 @@
 ## install bundler
 `gem install bundler`
 
+## install yarn
++ `brew install yarn`
+
 # Working with Neo4j
 
 ## Start Neo4j
