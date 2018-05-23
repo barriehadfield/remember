@@ -15,3 +15,7 @@
 
 ## install npm
 + `brew install npm`
+
+## install postgres
++ `brew install postgresql`
++ `brew services start postgresql`
