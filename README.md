@@ -1,5 +1,8 @@
 # Setting up a new mac
 
+## bash profile prompt (~/.bash_profile)
++ `export PS1="\w "`
+
 ## install homebrew
 + `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
