@@ -23,6 +23,9 @@
 + `brew install postgresql`
 + `brew services start postgresql`
 
-### install redis
+## install redis
 + `brew install redis`
 + `brew services start redis`
+
+## install bundler
+`gem install bundler`
