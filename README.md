@@ -37,3 +37,18 @@
 
 ## install bundler
 `gem install bundler`
+
+# Working with Neo4j
+
+## Start Neo4j
++ `rake neo4j:start[development]`
++ `rake neo4j:start[test]`
+
+## Migrate Ne04j
++ `rake neo4j:migrate` to migrate development
++ `RAILS_ENV=test rake neo4j:migrate:all` to migrate test
+
+## Reset the Neo4j database
++ `rake neo4j:reset_yes_i_am_sure[development]`
++ `rake neo4j:reset_yes_i_am_sure[test]`
+
