@@ -27,5 +27,13 @@
 + `brew install redis`
 + `brew services start redis`
 
+## install java 8
++ `brew install caskroom/versions/java8`
+
+## install neo4j (in app folder)
++ `rake neo4j:install[community-latest,development]`
++ `rake neo4j:install[community-latest,test]`
++ `rake neo4j:config[test,7475]`
+
 ## install bundler
 `gem install bundler`
