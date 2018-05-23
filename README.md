@@ -19,3 +19,7 @@
 ## install postgres
 + `brew install postgresql`
 + `brew services start postgresql`
+
+### install redis
++ `brew install redis`
++ `brew services start redis`
