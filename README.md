@@ -3,6 +3,7 @@
 ## Nas automount
 + In `/etc/auto_master` add `/mnt    auto_mnt`
 + Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
++ `sudo automount -vc`
 
 ## bash profile prompt (~/.bash_profile)
 + `export PS1="\w "`
