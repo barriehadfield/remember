@@ -1,13 +1,5 @@
 # Setting up a new mac
 
-## Nas automount
-+ In `/etc/auto_master` add `/mnt    auto_mnt`
-+ Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
-+ `sudo automount -vc`
-
-## bash profile prompt (~/.bash_profile)
-+ `export PS1="\w "`
-
 ## install homebrew
 + `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -59,4 +51,14 @@
 ## Reset the Neo4j database
 + `rake neo4j:reset_yes_i_am_sure[development]`
 + `rake neo4j:reset_yes_i_am_sure[test]`
+
+--------------------------------
+
+## Nas automount
++ In `/etc/auto_master` add `/mnt    auto_mnt`
++ Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
++ `sudo automount -vc`
+
+## bash profile prompt (~/.bash_profile)
++ `export PS1="\w "`
 
