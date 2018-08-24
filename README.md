@@ -52,13 +52,15 @@
 + `rake neo4j:reset_yes_i_am_sure[development]`
 + `rake neo4j:reset_yes_i_am_sure[test]`
 
---------------------------------
+# Working with Postgresql
 
-## Nas automount
++ If unable to connect after restarting `rm /usr/local/var/postgres/postmaster.pid`
+
+# Setting up Nas automount
 + In `/etc/auto_master` add `/mnt    auto_mnt`
 + Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
 + `sudo automount -vc`
 
-## bash profile prompt (~/.bash_profile)
+# bash profile prompt (~/.bash_profile)
 + `export PS1="\w "`
 
