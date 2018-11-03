@@ -8,8 +8,9 @@
 
 ## install rvm keys
 + `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
-or...
++ or...
 + `gpg --keyserver hkp://pgp.mit.edu  --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB`
+
 ## install rvm
 + `\curl -sSL https://get.rvm.io | bash -s stable`
 
@@ -64,6 +65,7 @@ or...
 + Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
 + `sudo automount -vc`
 
-# bash profile prompt (~/.bash_profile)
-+ `export PS1="\w "`
+# bash profile prompt 
++ `namo ~/.bash_profile`
++ then add `export PS1="\w $ "`
 
