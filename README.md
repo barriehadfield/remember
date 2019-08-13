@@ -3,6 +3,7 @@
 # bash profile prompt 
 + `nano ~/.bash_profile`
 + then add `export PS1="\w $ "`
++ `eval "$(rbenv init -)"` -> needed for rvm
 
 ## install homebrew
 + `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
