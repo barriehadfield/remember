@@ -28,6 +28,9 @@
 ## install postgres
 + `brew install postgresql`
 + `brew services start postgresql`
++ `createuser postgres -s` . 
++ `brew services start postgresql` <--- needed for postgres user
+
 
 ## install redis
 + `brew install redis`
