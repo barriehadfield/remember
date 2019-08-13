@@ -1,5 +1,9 @@
 # Setting up a new mac
 
+# bash profile prompt 
++ `nano ~/.bash_profile`
++ then add `export PS1="\w $ "`
+
 ## install homebrew
 + `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
@@ -65,7 +69,4 @@
 + Then create `auto_mnt` and add `music     10.0.1.35:/c/music`
 + `sudo automount -vc`
 
-# bash profile prompt 
-+ `namo ~/.bash_profile`
-+ then add `export PS1="\w $ "`
 
