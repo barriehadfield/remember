@@ -1,6 +1,10 @@
 # Setting up a new mac
 
-# bash profile prompt 
+# zsh profile
+nano /etc/zshrc
+PROMPT='%B%F{blue}%~%f%b $ '
+
+# or bash profile prompt (old)
 + `nano ~/.bash_profile`
 + then add `export PS1="\w $ "`
 + `eval "$(rbenv init -)"` -> needed for rvm
