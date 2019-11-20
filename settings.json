@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontSize": 15,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "ruby.linter.run": "onType",
+    "editor.suggest.localityBonus": true,
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "bracketPairColorizer.showVerticalScopeLine": false,
+    "ruby.useLanguageServer": true,
+    "scss.completion.triggerPropertyValueCompletion": false,
+    "php.suggest.basic": false,
+    "css.completion.triggerPropertyValueCompletion": false,
+    "html.suggest.html5": false,
+    "less.completion.triggerPropertyValueCompletion": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabSize": 2,
+    "workbench.iconTheme": null,
+    "workbench.colorCustomizations": {
+        "gitDecoration.modifiedResourceForeground": "#0099ff"
+    }
+}
