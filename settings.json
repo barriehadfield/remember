@@ -20,6 +20,7 @@
     "editor.tabSize": 2,
     "workbench.iconTheme": null,
     "workbench.colorCustomizations": {
-        "gitDecoration.modifiedResourceForeground": "#0099ff"
+        "gitDecoration.modifiedResourceForeground": "#00ff6a",
+        "gitDecoration.untrackedResourceForeground": "#00a2ff"
     }
 }
