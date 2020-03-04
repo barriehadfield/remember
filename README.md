@@ -1,8 +1,11 @@
 # Setting up a new mac
 
-# zsh profile
-nano /etc/zshrc
-PROMPT='%B%F{blue}%~%f%b $ '
+# zsh profile for promopt
++ `nano /etc/zshrc`
++ PROMPT='%B%F{blue}%~%f%b $ '
+
+# path
++ `sudo nano .zshrc`
 
 # or bash profile prompt (old)
 + `nano ~/.bash_profile`
