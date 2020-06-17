@@ -1,5 +1,11 @@
 # Setting up a new mac
 
+## Add to path via .zshrc file
+run `sudo nano  ~/.zshrc` into iTerm2 terminal.
+`export PATH=$HOME/development/flutter/bin:$PATH`
+Save and close ~/.zshrc file.
+re-start iTerm2
+
 # zsh profile for promopt
 + `nano /etc/zshrc`
 + PROMPT='%B%F{blue}%~%f%b $ '
