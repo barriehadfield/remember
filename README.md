@@ -1,6 +1,7 @@
 # Grange
 
 Channels: http://10.159.1.119:8089/admin/settings/sources
+HDHomeRun: http://hdhomerun.local/
 
 
 # Setting up a new mac
