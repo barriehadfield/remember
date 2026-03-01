@@ -1,3 +1,8 @@
+# Grange
+
+Channels: http://10.159.1.119:8089/admin/settings/sources
+
+
 # Setting up a new mac
 
 ## Add to path via .zshrc file
